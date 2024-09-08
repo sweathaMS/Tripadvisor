@@ -10,6 +10,10 @@ body{
     padding: 15px;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top:0px;
+    background-color:white;
+    z-index: 1;
 
   }
   .navbar__s1{
@@ -291,11 +295,8 @@ text-align:center;
    position: relative;
    left: 1px;
    width:100%;
-   
-   
-   
-   
-   }
+    
+}
    .sec-3__x{
    background-color: #34E0A1;
    height: 100px;
@@ -329,12 +330,10 @@ text-align:center;
     }
     
 .sec-7__img{
-        flex-basis: 45%;
+        flex-basis: 40%;
         }
 
-.final{
-    display: none;
-}
+
 
 .footer{
     height: 250px;
@@ -343,12 +342,12 @@ text-align:center;
 }
 
 .tokyo{
-    display: none;
+    display:none ;
 }
 
 .footer{
     background-color:#D8D4FB;
-
+    
 }
 }
 
