@@ -184,7 +184,13 @@ body{
     width: 100%;
     height: 80%;
     border-radius:10px;
+   
 }
+.img_card img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 
 .sec-5__a,.sec-5__b{
    padding: 50px; 
@@ -223,6 +229,10 @@ text-align:center;
  width:100%;
  border-radius:20px;
  height:auto;
+  }
+  .sec-7__img img:hover{
+    cursor: pointer;
+    opacity: 0.8;
   }
   
   
